@@ -1,10 +1,11 @@
 let resultado = subtracao(25, 20);
 
     function subtracao(vitorias, derrotas) {
-        return vitorias - derrotas; //resultado da função que foi declarada
+        return vitorias - derrotas; 
   }
         let rank = ""  
-  if (resultado < 10){
+  
+        if (resultado < 10){
     rank = "Ferro"
 }
  else if (resultado <= 20 ){
